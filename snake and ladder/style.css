@@ -1,0 +1,87 @@
+.box {
+    height: 50px;
+    width: 50px;
+    border: 0px solid;
+    float: left;
+    text-align: center;
+    font-size: 0px;
+}
+.container {
+    height: 50%;
+    width: 39.4%;
+    background-image: url('board.jpg');
+    position: relative;
+    margin: auto;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.dice {
+    height: 50px;
+    width: 50px;
+    border: 8px solid;
+    margin-bottom: 23px;
+    cursor: pointer;
+    
+}
+
+.diceno {
+    text-align: center;
+    display: block;
+    padding: 14px;
+}
+.diceno2 {
+    text-align: center;
+    display: block;
+    padding: 14px;
+}
+
+.user1 {
+    border: 1px solid;
+    margin: 20px;
+    border-radius: 95px;
+    width: 23px;
+    height: 23px;
+    background: rgb(0, 162, 255);
+    position: absolute;
+    top: 134px;
+    left: 0px;
+}
+/* .box:nth-child(2n+1){
+    background-color: rgb(205, 252, 255);
+
+}
+.box:nth-child(odd){
+    background-color: rgb(43 ,226, 218);
+} */
+
+.user2 {
+    border: 1px solid;
+    margin: 20px;
+    border-radius: 95px;
+    width: 23px;
+    height: 23px;
+    background: #ff00a5;
+    position: absolute;
+    top: 134px;
+    left: 28px;
+}
+.dice2{
+    height: 50px;
+    width: 50px;
+    border: 8px solid;
+    margin-bottom: 23px;
+    cursor: pointer;
+}
+
+.dices {
+    display: flex;
+    /* align-items: center; */
+    padding: 15px;
+}
+
